@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    ---black: rgba(0, 0, 0, 1);
+    ---black-grey: rgb(47, 47, 47);
+    ---btn-color: #8e5b48;
+    ---body-color: #efe7e2;
+    --text-color: rgb(94, 94, 94);
+    ---white-color: #eeefef;
+    ---input-color: rgba(255, 255, 255, 1);
+
+    /* font  */
+    ---h1-font: 48px;
+    ---h1-p: 20px;
+    ---btn-font: 16px;
+    ---h2-font: 28px;
+    ---h3-font: 24px;
+    ---h4-font: 14px;
+    /* more fontsize  */
+    ---about-h1-font: 56px;
+    ---about-h2-font: 32px;
+    
+    
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
