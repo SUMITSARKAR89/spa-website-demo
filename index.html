@@ -8,7 +8,7 @@
     <meta name="author" content="sumit sarkar">
 
     <!-- font awesome cdn  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- favicon section  -->
     <link rel="shortcut icon" href="https://workmatejob.com/images/avatars/avatar_901168716077495851.jpg" type="image/x-icon">
     <!-- this is Css section  -->
@@ -20,18 +20,280 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     
 
-    <title>beauti shop </title>
+    <title>beauty shop website </title>
 </head>
-<body>
-    <header>
+<body id="home ">
+    <!-- header section start here  -->
+    <header >
+        <div class="head ">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.svg" alt="logo"></a>
+            </div>
+            <nav id="sidebar">
+                <ul>
+                    <li onclick=crossbar()><a href="#"><i class="fa-regular fa-x on"></i></a></li>
+                    <li><a href="#services" >services </a></li>
+                    <li><a href="skincare.html" >skin care </a></li>
+                    <li><a href="makeup.html" >makeup </a></li>
+                    <li><a href="nails.html" >nails </a></li>
+                    <li><a href="wax.html" >waxing </a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                
+                  </ul>      
+            </nav>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">services <i class="fa-solid fa-chevron-down "></i></a>
+                        <div class="dropdown-content">
+                          <a href="skincare.html">skin care</a>
+                          <a href="makeup.html">makeup</a>
+                          <a href="nails.html">nails</a>
+                          <a href="wax.html">waxing</a>
+                        </div>
+                      </li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <div class="search">
+                        
+                        <input type="text" id="search" placeholder="search here"><a href="#">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        
+                    </div>
+                    
+                  </ul>      
+            </nav>
+            <div id="menu-btn" onclick=menuBar()>
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+            
+            
 
+        </div>
+       
     </header>
-    <main>
 
+    <!-- header section ends here  -->
+    <!-- main section strat here  -->
+    <main id="main">
+        <!-- hero section start here  -->
+        <section class="container" id="hero">
+            <div class="hero-left">
+                <h1>Destination for <span>beauty</span> and wellness</h1>
+                <p>Trusted by the best in the beauty and wellness industry.</p>
+                <button class="btn"><a href="#service"></a> see services</button>
+            </div>
+            <div class="hero-right">
+                <img src="image/hero-img.webp" alt="">
+            </div>
+           
+
+        </section>
+
+        <!-- about section start here  -->
+        <section class="container" >
+            <div class="about">
+                <div class="upper-img">
+                    <img src="image/left-1.webp" alt="">
+                    <img src="image/right-1.webp" alt="">
+    
+                </div>
+                <div class="about-content">
+                    <p class="p">about us</p>
+                    <h2 class="h2">It Started with a Dream</h2>
+                    <p class="p-text"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <a href="about.html" title="Click here">learn more <i class="fa-solid fa-chevron-right " ></i></a>
+                </div>
+
+                <div class="down-img">
+                    <img src="image/left-2.jpg" alt="">
+                    <img src="image/right-2.webp" alt="">
+                </div>
+                <div class="vedio-container">
+                    <video autoplay loop muted plays-inline class="bg-vedio">
+                        <source src="video/vd.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-cart">
+                       <div class="cart">
+                        <video autoplay loop muted plays-inline class="v-file">
+                            <source src="video/v4.mp4" type="video/mp4">
+                        </video>
+                       </div> 
+                       <div class="cart">
+                        <video autoplay loop muted plays-inline class="v-file">
+                            <source src="video/v2.mp4" type="video/mp4">
+                        </video>
+                       </div>  
+                       <div class="cart">
+                        <video autoplay loop muted plays-inline class="v-file">
+                            <source src="video/v3.mp4" type="video/mp4">
+                        </video>
+                       </div> 
+                       <div class="cart">
+                        <video autoplay loop muted plays-inline class="v-file">
+                            <source src="video/v7.mp4" type="video/mp4">
+                        </video>
+                       </div>    
+                       <div class="cart">
+                        <video autoplay loop muted plays-inline class="v-file">
+                            <source src="video/v8.mp4" type="video/mp4">
+                        </video>
+                       </div>    
+                       <div class="cart">
+                        <video autoplay loop muted plays-inline class="v-file">
+                            <source src="video/v9.mp4" type="video/mp4">
+                        </video>
+                       </div>         
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- service section start here  -->
+        <section class="container service service-head">
+           
+            <div class="service">
+                <p class="p">services</p>
+                <h2 class="h2">A unique experience launching at Beauti.</h2>
+            </div>
+            <div class="service-container ">
+                    <div class="service-card skincare">
+                        <div class="service-card-left">
+                            <h2>skin care</h2>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters making it look like readable English.</p>
+                            <a href="skincare.html" title="Click here" style="color: black;">see service <i class="fa-solid fa-chevron-right " ></i></a>
+                        </div>
+                        <div class="srvice-card-right">
+                            <img src="image/skincare.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="service-card makeup">
+                        <div class="service-card-left">
+                            <h2>Makeup</h2>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters making it look like readable English.</p>
+                            <a href="makeup.html" title="Click here" style="color: #fff;">see service <i class="fa-solid fa-chevron-right " ></i></a>
+                        </div>
+                        <div class="srvice-card-right">
+                            <img src="image/makeup.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="service-card nail">
+                        <div class="service-card-left ">
+                            <h2 style="color: #fff;">Nails</h2>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters making it look like readable English.</p>
+                            <a href="nails.html" title="Click here" style="color: #fff;">see service<i class="fa-solid fa-chevron-right " ></i></a>
+                        </div>
+                        <div class="srvice-card-right">
+                            <img src="image/nails.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="service-card wax">
+                        <div class="service-card-left ">
+                            <h2 style="color: #fff;">waxing</h2>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters making it look like readable English.</p>
+                            <a href="wax.html" title="Click here" style="color: #fff;">see service<i class="fa-solid fa-chevron-right " ></i></a>
+                        </div>
+                        <div class="srvice-card-right">
+                            <img src="image/waxing.webp" alt="">
+                        </div>
+                    </div>
+    
+            </div>
+            
+            
+
+           </div>
+        </section>
+
+        <!-- blog section start here  -->
+        <section class="container ">
+            <div class="blog-content">
+                <p class="p">blog</p>
+                <h2 class="h2">Latest Articles</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-container">
+                    <div class="blog-card" >
+                        <a href="blogpost.html">
+                            <img src="image/index-makeup.webp" alt="">
+                            <div class="blog-details">
+                                <h4>jun 6, 2024</h4>
+                                <a href="#" class="blog-btn">makeup</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>7 Spring 2023 Beauty Trends to Up Your Make-up Game</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio excepturi optio similique, nihil illum sunt ea quasi animi aliquam, facere nesciunt doloribus porro deleniti?</p>
+                            </div>
+                        </a>   
+                    </div>
+                    <div class="blog-card" >
+                        <a href="blogpost.html">
+                            <img src="image/index-face.webp" alt="">
+                            <div class="blog-details">
+                                <h4>jun 6, 2024</h4>
+                                <a href="#" class="blog-btn">face</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>The Best Cream Bronzers for a Natural-Looking Glow</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio excepturi optio similique, nihil illum sunt ea quasi animi aliquam, facere nesciunt doloribus porro deleniti?</p>
+                            </div>
+                        </a>   
+                    </div>
+                    <div class="blog-card" >
+                        <a href="blogpost.html">
+                            <img src="image/index-will.webp" alt="">
+                            <div class="blog-details">
+                                <h4>jun 6, 2024</h4>
+                                <a href="#" class="blog-btn">willness</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Are You Allergic to the Sun? Yes, It’s Possible</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio excepturi optio similique, nihil illum sunt ea quasi animi aliquam, facere nesciunt doloribus porro deleniti?</p>
+                            </div>
+                        </a>   
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+        <!-- contact section start here  -->
+        <section class="container" style="background-color: #ffffff48;">
+           <div class="contact">
+            <div class="contact-content">
+                <p class="p">visit us</p>
+                <h2 class="h2">Welcome to Beauti</h2>
+            </div>
+            <div class="contact-details">
+                <div class="contact-details-left">
+                    <p>contact</p>
+                    <p>(555) 555-1234</p>
+                    <p>info@beauti.com</p>
+
+                </div>
+                <div class="contact-details-right">
+                    <p>Hours</p>
+                    <p>Mon - Fri : 8am - 9pm</p>
+                    <p>Sat - Sun: 10am - 9pm</p>
+
+                </div>
+            </div>
+           </div>
+
+        </section>
+        
+
+       
     </main>
     <footer>
+        
 
     </footer>
+    <script src="index.js"></script>
     
 </body>
 </html>
