@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beauti is a flexible Framer template designed to provide the ideal answer for websites for beauty spa businesses">
+    <meta name="keywords" content="menubar, nab-var blur, dropdown, toggle animation, responsive">
+    <meta name="author" content="sumit sarkar">
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon section  -->
+    <link rel="shortcut icon" href="https://workmatejob.com/images/avatars/avatar_901168716077495851.jpg" type="image/x-icon">
+    <!-- this is Css section  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- this is google font section  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+</head>
+<body id="home">
+     <!-- header section start here  -->
+     <header >
+        <div class="head ">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.svg" alt="logo"></a>
+            </div>
+            <nav id="sidebar">
+                <ul>
+                    <li onclick=crossbar()><a href="#"><i class="fa-regular fa-x on"></i></a></li>
+                    <li><a href="index.html" >services </a></li>
+                    <li><a href="skincare.html" >skin care </a></li>
+                    <li><a href="makeup.html" >makeup </a></li>
+                    <li><a href="nails.html" >nails </a></li>
+                    <li><a href="wax.html" >waxing </a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                
+                  </ul>      
+            </nav>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">services <i class="fa-solid fa-chevron-down "></i></a>
+                        <div class="dropdown-content">
+                          <a href="skincare.html">skin care</a>
+                          <a href="makeup.html">makeup</a>
+                          <a href="nails.html">nails</a>
+                          <a href="wax.html">waxing</a>
+                        </div>
+                      </li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <div class="search">
+                        
+                        <input type="text" id="search" placeholder="search here"><a href="#">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        
+                    </div>
+                    
+                  </ul>      
+            </nav>
+            <div id="menu-btn" onclick=menuBar()>
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+            
+            
+
+        </div>
+       
+    </header>
+
+    <!-- header section ends here  -->
+    <main id="main">
+        <section class="container">
+            <div class="visitus-container">
+                <div class="visitus-left">
+                    <div class="visitus-content">
+                        <p class="p"> visit us</p>
+                        <h2 class="h2">Welcome to Beauti</h2>
+                    </div>
+                    <div class="visitus-details">
+                        <div class="one">
+                            <p>contact</p>
+                            <p>(555) 555-1234</p>
+                            <p>info@beauti.com</p>
+                        </div>
+                        <div class="one">
+                            <p>hours</p>
+                            <p>Mon - Fri : 8am - 9pm</p>
+                            <p>Sat - Sun: 10am - 9pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="visitus-right">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6376.8180685502175!2d-123.1176613641675!3d49.24236792070808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548674ddac02907b%3A0xf1491a37039ed2d0!2sCanada%20Line%20-%20SkyTrain%2C%20Richmond%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sbd!4v1716221934816!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+
+            </div>
+
+        </section>
+        
+
+
+        <a href="blogpost.html"></a>
+    </main>
+
+    <!-- footer section start here  -->
+
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-head">
+                        <div class="footlogo">
+                            <img src="image/logo.svg" alt="">
+                        </div>
+                        <p>Join our newsletter to stay up to date.</p>
+                        <form action="#">
+                            <input type="email" name="email" placeholder="@gmail.com">
+                            <a href="#">sign up</a>
+                        </form>
+                    </div>
+                    <div class="footer-div">
+                        <div class="div-one">
+                            <p class="foot-text">pages</p>
+                            <ul>
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="skincare.html">service</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li> <a href="contact.html">contact</a> </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="div-one">
+                            <p class="foot-text">CMS pages</p>
+                            <ul>
+                                <li><a href="blog.html">blog</a></li>
+                                <li><a href="blogpost.html">blog post</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="div-one">
+                            <p class="foot-text">utility pages</p>
+                            <ul>
+                                <li><a href="#">404</a></li>
+                                <li><a href="#" style="text-decoration: underline;">more information</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="social">
+                        <p class="foot-text">follow us</p>
+                        <div class="social-link">
+                            <a href="https://www.facebook.com/sumitsarkar89"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/sumitsarkar89/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="copy-text">   
+                        <p>Beauti © 2023 by Sumit Sarkar</p>   
+                    </div>
+                    <div class="other">
+                        <a href="index.html">privacy policy</a>
+                        <a href="index.html">terms & condition</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </footer>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>

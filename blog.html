@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beauti is a flexible Framer template designed to provide the ideal answer for websites for beauty spa businesses">
+    <meta name="keywords" content="menubar, nab-var blur, dropdown, toggle animation, responsive">
+    <meta name="author" content="sumit sarkar">
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon section  -->
+    <link rel="shortcut icon" href="https://workmatejob.com/images/avatars/avatar_901168716077495851.jpg" type="image/x-icon">
+    <!-- this is Css section  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- this is google font section  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+</head>
+<body id="home">
+     <!-- header section start here  -->
+     <header >
+        <div class="head ">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.svg" alt="logo"></a>
+            </div>
+            <nav id="sidebar">
+                <ul>
+                    <li onclick=crossbar()><a href="#"><i class="fa-regular fa-x on"></i></a></li>
+                    <li><a href="#services" >services </a></li>
+                    <li><a href="skincare.html" >skin care </a></li>
+                    <li><a href="makeup.html" >makeup </a></li>
+                    <li><a href="nails.html" >nails </a></li>
+                    <li><a href="wax.html" >waxing </a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                
+                  </ul>      
+            </nav>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">services <i class="fa-solid fa-chevron-down "></i></a>
+                        <div class="dropdown-content">
+                          <a href="skincare.html">skin care</a>
+                          <a href="makeup.html">makeup</a>
+                          <a href="nails.html">nails</a>
+                          <a href="wax.html">waxing</a>
+                        </div>
+                      </li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <div class="search">
+                        
+                        <input type="text" id="search" placeholder="search here"><a href="#">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        
+                    </div>
+                    
+                  </ul>      
+            </nav>
+            <div id="menu-btn" onclick=menuBar()>
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+            
+            
+
+        </div>
+        <section id="blogHtml" class="container">
+            <div class="section-nav">
+                <h1>blog</h1>
+                <div class="section-nav-buttons">
+                   <ul>
+                    <li><a href="#" class="active">all</a></li>
+                    <li><a href="#">makeup</a></li>
+                    <li><a href="#">face</a></li>
+                    <li><a href="#">wellness</a></li>
+                    <li><a href="#">nails</a></li>
+                    <li><a href="#">body</a></li>
+                   </ul>
+
+                </div>
+            </div>
+        </section>
+       
+    </header>
+    <!-- header section ends here  -->
+    <main id="main">
+        <section class="">
+            <div class="container">
+                <div class="blogHtml-container">
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/index-makeup.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">makeup</a>
+
+                            </div>
+                            <h2>7 Spring 2023 Beauty Trends to Up Your Make-up Game</h2>
+                            <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        </div>
+                    </div> 
+
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/index-face.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">face</a>
+
+                            </div>
+                            <h2>The Best Cream Bronzers for a Natural-Looking Glow</h2>
+                            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                        </div>
+                    </div> 
+
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/index-will.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">willness</a>
+
+                            </div>
+                            <h2>Are You Allergic to the Sun? Yes, It’s Possible</h2>
+                            <p> a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature</p>
+                        </div>
+                    </div> 
+
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/index-eye.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">eye</a>
+
+                            </div>
+                            <h2>When Should You Start Using Anti-Aging Ingredients?</h2>
+                            <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        </div>
+                    </div> 
+
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/index-finger.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">nails</a>
+
+                            </div>
+                            <h2>7 Celebrity-Inspired Nail Trends to Elevate Your Manicure</h2>
+                            <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        </div>
+                    </div> 
+
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/index-body.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">body</a>
+
+                            </div>
+                            <h2>5 Hand Creams to Relieve Seriously Dry Skin</h2>
+                            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                        </div>
+                    </div> 
+
+                    <div class="blogHtml-container-card">
+                        <div class="blogHtml-content-left">
+                            <img src="image/waxing.webp" alt="">
+                        </div>
+                        <div class="blogHtml-content-right">
+                            <div class="blogHtml-right-details">
+                                <p>jun 6 ,2023</p>
+                                <a href="#">wax</a>
+
+                            </div>
+                            <h2>7 Spring 2023 Beauty Trends to Up Your Make-up Game</h2>
+                            <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        </div>
+                    </div> 
+                </div>
+        
+            </div>
+
+        </section>
+
+
+
+        <a href="blogpost.html"></a>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-head">
+                        <div class="footlogo">
+                            <img src="image/logo.svg" alt="">
+                        </div>
+                        <p>Join our newsletter to stay up to date.</p>
+                        <form action="#">
+                            <input type="email" name="email" placeholder="@gmail.com">
+                            <a href="#">sign up</a>
+                        </form>
+                    </div>
+                    <div class="footer-div">
+                        <div class="div-one">
+                            <p class="foot-text">pages</p>
+                            <ul>
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="skincare.html">service</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li> <a href="contact.html">contact</a> </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="div-one">
+                            <p class="foot-text">CMS pages</p>
+                            <ul>
+                                <li><a href="blog.html">blog</a></li>
+                                <li><a href="blogpost.html">blog post</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="div-one">
+                            <p class="foot-text">utility pages</p>
+                            <ul>
+                                <li><a href="#">404</a></li>
+                                <li><a href="#" style="text-decoration: underline;">more information</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="social">
+                        <p class="foot-text">follow us</p>
+                        <div class="social-link">
+                            <a href="https://www.facebook.com/sumitsarkar89"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/sumitsarkar89/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="copy-text">   
+                        <p>Beauti © 2023 by Sumit Sarkar</p>   
+                    </div>
+                    <div class="other">
+                        <a href="index.html">privacy policy</a>
+                        <a href="index.html">terms & condition</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </footer>
+    <script src="index.js"></script>
+    
+</body>
+</html>
