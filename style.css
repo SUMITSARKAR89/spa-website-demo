@@ -1136,3 +1136,140 @@ background: linear-gradient(90deg, rgba(190, 124, 49, 0.349) 29%, rgba(246, 246,
 .visitus-right p iframe {
   border-radius: 0 0 0 35px;
 }
+
+/* -----------------------------------------------skin care----------------------------------  */
+#skincare-container{
+  padding: 8% 12%;
+}
+#skincare-container .skincare-head{
+  margin: 5% auto;
+  width: 100%;
+
+}
+.skincare-head h1{
+  font-size: var(---h1-font);
+  font-weight: 500;
+  color: var(---black-grey);
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.skincare-head p{
+  font-size: var(---h1-p);
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+.skincare-head img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: auto;
+  border-radius: 0 0 0 35px;
+  margin-bottom: 40px;
+}
+.skincare-head h3{
+  font-size: var(---h3-font);
+  font-weight: 500;
+  color: var(---btn-color);
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+button.skin-btn{
+  display: block;
+  background-color: #8e5b48;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.skincare-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skincare-content .skincare-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+.skincare-details h4{
+  font-size: var(---btn-font);
+  font-weight: 600;
+  color: var(---black-grey);
+  text-transform: capitalize;
+
+}
+.skincare-details span{
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.skincare-details p{
+  color: var(---btn-color);
+  font-weight: 500;
+}
+/* --------------------------------------------------blogpost part sart here-------------------------  */
+#blogpostHTML{
+  margin-top: 10%;
+}
+.video-blog{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 2px;
+  margin: 2% 0;
+  border-radius: 0 35px 0 35px;
+  border: 1px solid rgba(218, 208, 208, 0.7);
+}
+.video-text{
+  padding: 10px;
+}
+.video-blog .video-text h3{
+  font-size: var(---h2-font);
+  font-weight: 500;
+  color: var(---black-grey);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+
+}
+.video-blog .video-text p{
+  font-size: var(---btn-font);
+  color: var(--text-color);
+  margin-top: 30px;
+}
+.blogpost-text{
+  margin: 25px 0;
+ background-color: #8e5b481a;
+  border: 1px solid rgba(218, 208, 208, 0.7);
+  border-radius: 10px;
+  padding: 2px;
+  
+  
+}
+.blogpost-text h3{
+  font-size: var(---h3-font);
+  font-weight: 500;
+  color: var(---black-grey);
+  text-transform: capitalize;
+  padding: 8px;
+}
+.blogpost-text p{
+  font-size: var(---btn-font);
+  color: var(--text-color);
+  margin: 20px 0;
+  padding: 8px;
+}
+.blogpost-text img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+.videos{
+  width: 380px;
+  height: 200px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
