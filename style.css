@@ -74,7 +74,7 @@ header .head{
     z-index: 1000;
     backdrop-filter: blur(2px);
     width: 100%;
-    height: 120px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     padding: 20px 8% ;
@@ -267,11 +267,12 @@ nav ul li:first-child i:hover{
   /* hero section start here  */
   #hero{
     margin: 10% 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 64px;
-    background-color: ;
+     
   }
   #hero .hero-right img{
     width: 600px;
@@ -285,6 +286,7 @@ nav ul li:first-child i:hover{
   }
   #hero .hero-left{
     max-width: 40%;
+    
   }
 
   .hero-left h1{
@@ -315,6 +317,8 @@ nav ul li:first-child i:hover{
   }
   .hero-right img{
     transition: 0.4s ease-in;
+    width: 100%;
+    height: 100%;
 
   }
   .hero-right img:hover{
@@ -391,8 +395,8 @@ nav ul li:first-child i:hover{
   .about-content .p-text{
     font-weight: 400;
     color: var(--text-color);
-    margin: 30px 0;
-    line-height: 35px;
+    margin: 20px 0;
+    
     transition: 0.5s ease-in;
   }
   .about-content .h2, 
@@ -407,6 +411,7 @@ nav ul li:first-child i:hover{
     font-size: var(---about-h2-font);
     color: var(---black-grey);
     font-weight: 500;
+    
     text-transform: capitalize;
     transition: 0.5s ease-in;
   }
@@ -442,18 +447,20 @@ nav ul li:first-child i:hover{
     margin-left: 5px;
   }
   .vedio-container{
-    border:1px solid var(---btn-color);
+    border: 1px solid rgb(226, 194, 194);
+    background-color: rgba(165, 127, 127, 0.342);
     padding: 1px ;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 3% auto;
+    align-items: center;
+    margin: 3% 0;
     border-radius:2px 2px 2px 50px   ;
   }
   .bg-vedio{
     width: 50%;
     height: auto;
-    margin-top: 3px;
+    margin: 3px;
+    padding: 3px;
     border-radius: 0 50px 0 50px;
     transition: 0.4s ease;
   }
@@ -464,14 +471,13 @@ nav ul li:first-child i:hover{
   
   
   .video-cart {
-    margin: 5px ;
-    width: 100%;
+    margin: 0 auto;
     display:grid ;
     grid-template-columns: repeat(3, 1fr);
     
   }
   .video-cart .cart{
-    background: rgb(214,197,201);
+    
     border-radius: 0 5px 0 5px;
     padding: 2px;
     margin: 1px;
@@ -480,10 +486,11 @@ nav ul li:first-child i:hover{
   .video-cart .v-file{
     width: 180px;
     object-fit: cover;
-    max-height: 150px;
+    height: 150px;
     padding: 2px;
-    border-radius: 10px 3px 3px 0;
+    border-radius:2px 2px 2px 50px;
     transition: 0.3s ;
+   
   }
   .video-cart .v-file:hover{
     transform: rotate(3deg);
@@ -501,6 +508,7 @@ nav ul li:first-child i:hover{
   background-image: linear-gradient(to bottom, rgba(221, 224, 241, 0.384), rgba(88, 6, 6, 0.137)), url(https://images.unsplash.com/photo-1542728928-ee495082a3c6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   width: 100%;
   height: 215vh;
+ 
   padding-top: 30px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -514,8 +522,7 @@ nav ul li:first-child i:hover{
     margin: 0 auto;
     margin-top: 20%;
     position: relative;
-    
-    
+   
   }
 
   .service-container .service-card{
@@ -524,11 +531,11 @@ nav ul li:first-child i:hover{
     align-items: center;
     text-align: left;
     padding: 25px;
-    margin-top: px;
     height: 390px;
     border-radius: 2px 2px 2px 30px;
     gap: 15px;
     position: absolute;
+    
    
 
   }
@@ -536,7 +543,7 @@ nav ul li:first-child i:hover{
     background-color: rgb(217, 178, 106);
     position: absolute;
     z-index: 1;
-    bottom: -150px;
+    bottom: -130px;
     right: 15%;
     transition:0.4s ease;
   }
@@ -545,7 +552,7 @@ nav ul li:first-child i:hover{
     background-color: rgb(96, 108, 56);
     position: absolute;
     z-index: 2;
-    top: 50px;
+    top: 25px;
     left: 200px;
     transition:0.4s ease;
     
@@ -657,6 +664,8 @@ nav ul li:first-child i:hover{
   .blog-container .blog-card{
     background-color: var(---input-color);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     border-radius: 2px 2px 2px 35px;
@@ -666,6 +675,9 @@ nav ul li:first-child i:hover{
   .blog-container .blog-card:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
+  }
+  .blog-main{
+    padding: 0 25px;
   }
   .blog-card img{
     height: auto;
@@ -773,20 +785,22 @@ nav ul li:first-child i:hover{
     background-color: #fff;
     height: auto;
     padding: 1% 0;
+    margin:  0 auto;
   }
   footer .foot{
     padding: 3px;
   }
   .footer-container{
     display: grid;
-    grid-template-columns:35% 50% 15%;;
-    gap: 20px;
+    grid-template-columns:40% 60% ;
+    gap: 50px;
     margin-bottom: 5%;
     padding-top: 30px;
   }
   .footer-container .footer-head{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 15px;
     width: 100%;
     
@@ -836,11 +850,14 @@ nav ul li:first-child i:hover{
   
   .footer-container .footer-div{
     background-color: transparent;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
     justify-content: space-between;
-    align-items: flex-start;
     width: 100%;
     padding: 5px;
+    gap: 35px;
+    margin: 0 auto;
     
   }
   .footer-div .div-one .foot-text, 
@@ -886,11 +903,16 @@ nav ul li:first-child i:hover{
     display: flex;
     justify-content: space-between;
   }
+  .copyright .other{
+    display: flex;
+    gap: 38px;
+  }
   .copyright .other a{
 
-    padding: 0 15px;
+    padding: 0 0px;
     text-transform: capitalize;
     color: var(--text-color);
+    margin: 10px;
   }
 
   /* -------------------------------------------------------------------------- */
@@ -962,6 +984,11 @@ nav ul li:first-child i:hover{
     background: rgb(164,90,5);
     background: linear-gradient(to left, rgba(164,90,5,0.28895308123249297) 29%, rgba(246,246,246,1) 100%);
     
+  }
+  .value-head{
+   
+   margin: 0 auto;
+
   }
   .value-head, .team-head{
     text-align: center;
@@ -1035,7 +1062,6 @@ nav ul li:first-child i:hover{
    .team-container{
     max-width: 1020px;
     width: 100%;
-    background: rgb(164,90,5);
     background: linear-gradient(to left, rgba(164,90,5,0.28895308123249297) 29%, rgba(246,246,246,1) 100%);
     padding: 20px;
     margin: 0 auto;

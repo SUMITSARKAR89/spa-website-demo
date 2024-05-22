@@ -1,6 +1,6 @@
 @media(max-width:1400px){
   header .head{
-    padding: 20px 4% ;
+    padding: 35px 4% ;
 
   }
   .container{
@@ -11,12 +11,12 @@
     padding: 4% 0;
   }
   .service-head{
-    height: 170vh;
+    
    
     }
 }
 
-@media(max-width:1200px){
+@media(max-width:1280px){
   :root{
     /* font  */
     ---h1-font: 45px;
@@ -39,31 +39,244 @@
   margin-bottom: 20px;
   
 }
+.vedio-container{
+  flex-direction: column;
+}
+.bg-vedio{
+  width: 100%;
+}
+.video-cart{
+  grid-template-columns: repeat(2, 1fr);
+}
+.video-cart .v-file{
+  width: 450px;
+  height: 180px;
+  margin: 0 auto;
+}
+.service-head{
+  height: 170vh;
+}
+
+.service-container .service-card{
+    padding: 15px;
+    align-items: flex-start;
+    height: 280px;
+    
+}
+.service-card .srvice-card-right img{
+  height: 250px;
+  width: 500px;
+
+}
+.skincare, 
+.makeup, 
+.nail, 
+.wax{
+  right: 0;
+  left: 0;
+  position: relative;
+ 
+}
+.skincare{
+  top: -150px;
+}
+.makeup{
+  top: 150px;
+}
+.nail{
+  top: 450px;
+}
+.wax{
+  top: 750px;
+}
+.blog .blog-container{
+  grid-template-columns: repeat(1, 1fr);
+}
+.blog-container .blog-card{
+  flex-direction: row;
+}
+.blog-card img{
+  width: 1000px;
+  height: 250px;
+}
+.contact{
+  display: none;
+}
+.footer-container{
+  grid-template-columns:repeat(1, 1fr) ;
+}
+.footer-container .footer-head{
+  width: 65%;
+}
+.footer-head form input{
+  width: 470px;
+}
+.video-blog{
+  flex-direction: column;
+}
+.videos{
+  width: 280px;
+}
+.visitus-container{
+  flex-direction: column;
+  
+}
+.visitus-details{
+  
+  margin: 2% 0;
+}
+.visitus-right p iframe{
+  width: 100%;
+}
+/* .visitus-right{
+  width: 100%;
+} */
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:800px){
-    nav ul {
-        display: none;  
-      }
-      #menu-btn{
+@media (max-width:988px){
+  nav ul {
+    display: none;  
+  }
+  #menu-btn{
         display: block;
-      }   
+      }  
+  body{
+    width: 98%;
+      } 
+  .container{
+    padding: 1% 2%;
+    width: 100%;   
+  }
+  section{
+    padding: 5% 0;
+  }
+  #sidebar{
+    width: 400px;
+     border-radius: 0 0 0 50px;
+     
+  }
+  #menu-btn{
+    margin-right: 30px;
+  }
+  #hero{
+    flex-direction: column;
+    text-align: center;
+    height: 50vh;
+    background-image: linear-gradient(rgba(3, 0, 0, 0.123), rgba(5, 1, 1, 0.144)), url(image/hero-img.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #hero.hero-right,  #hero .hero-left{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .hero-right img{
+   display: none;
+  }
+
+  button{
+    text-align: center;
+      display: inline-block;
+  }
+  .upper-img,
+  .down-img{
+    padding: 1% ;
+  }
+  .about .about-content{
+    margin-bottom: 60px;
+  }
+  .video-cart{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .video-cart .v-file{
+    max-width: 235px;
+    
+  
+  }
+  .service{
+    margin: 20px 0; 
+  }
+  .service-head{
+    height: 155vh;
+    background-image: none;
+ 
+  }
+  .service-container{
+    width: 100%;
+    
+  }
+  .blog-container .blog-card{
+    flex-direction:column;
+  }
+  .footer-container .footer-head{
+    width: 100%;
+  }
+  .footer-head form input{
+    width: 420px;
+  }
+  .footer-container .footer-div{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .copyright{
+    flex-direction: column;
+    justify-content: flex-start;
+   
+  }
+  .copyright .other a{
+    margin: 0;
+  }
+  .videos{
+    width: 200px;
+  }
+
+  /* ------------  */
+  #aboutHtml{
+    padding: 8% ;
+    text-align: center;
+  }
+  .value-head .p, 
+  .value-head .h2, 
+  .value-head .p-text,
+  .team-head .p, .team-head .h2, .team-head .p-text
+  {
+    
+    width: 500px;
+    margin: 0 auto;
+  }
+  .background{
+    background: none;
+  }
+  .value-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-container{
+    max-width: 770px;
+  }
+  .team-card .image{
+    width: 240px;
+    height: 130px;
+    
+  }
+  section#blogHtml{
+    background-color:var(---body-color);
+    margin-top: 0%;
+    width: 100%;
+    height:25vh;
+    position: fixed;
+  }
+ 
+  
+
 }
-@media (max-width:600px){
+
+
+@media (max-width:780px){
     #sidebar{
        
         width: 100%;
@@ -72,5 +285,147 @@
        
         
       }
+      .upper-img,
+      .about-content, .down-img{
+        display: none;
+      }
+    
+      .video-cart{
+        display: none;
+      }
+      :root{
+        /* font  */
+        ---h1-font: 38px;
+        ---h1-p: 16px;
+        ---btn-font: 13px;
+        ---h2-font: 20px;
+        ---h3-font: 19px;
+        ---h4-font: 13px;
+        /* more fontsize  */
+        ---about-h2-font: 26px;  
+    }
+    .skincare a, 
+    .makeup a, 
+    .nail a, 
+    .wax a{
+      margin: 10px 0;
+
+  }
+  .service-card .service-card-left h2{
+    margin-bottom: 20px;
+  }
+  .service-card .service-card-left p{
+    margin-top: 10px;
+    line-height: 20px;
+  }
+  .service-container .service-card{
+    height: 240px;
+    
+}
+.service-card .srvice-card-right img{
+  height: 220px;
+  width: 400px;
+
+}
+.blog-card .blog-text h3, .blog-card .blog-text p{
+  margin: 10px 0;
+}
+button, .f-btn{
+  padding: 5px 8px;
+}
+.videos{
+  width: 180px;
+}
+.aboutHtml-head .about-hero{
+  flex-direction: column;
+}
+.value-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.value-container .value-card{
+  text-align: center;
+  align-items: center;
+}
+.value-head .p, 
+  .value-head .h2, 
+  .value-head .p-text,
+  .team-head .p, .team-head .h2, .team-head .p-text
+  {
+    
+    width: 500px;
+    margin-left: 90px;
+    
+  }
+  .team-container{
+    max-width: 600px;
+  }
+  .team-container .team-card{
+    max-width: 280px;
+    padding:10px ;
+  }
+  .team-card .image{
+    width: 200px;
+    height: 120px;
+    
+  }
+  .blogHtml-container{
+    margin-top: 25%;
+  }
+  .blogHtml-container-card{
+    flex-direction: column;
+    margin: 28px 10px;
+  }
+  .blogHtml-content-left, 
+  .blogHtml-content-right{
+    width: 100%;
+  } 
+  .blogHtml-content-left img{
+    width: 100%;
+  }
+  .blogHtml-content-right h2, .blogHtml-content-right p{
+    margin: 10px 0;
+  }
+  
+
+  .blogHtml-content-right .blogHtml-right-details{
+   margin:10px 0;
+  
+  
+  }
+  .visitus-container{
+    text-align: center;
+    
+  }
+      
+
+}
+
+
+@media (max-width:600px){
+  .footer-head form input{
+    width: 280px;
+  }
+  .blogpost-text .grid-layer{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .videos{
+    width: 380px;
+    padding: 10px 0;
+  }
+  .team-container{
+    max-width: 400px;
+  }
+  .team-card .image{
+    width: 150px;
+    height: 80px;
+    
+  }
+  
+  
+  
+  
+ 
+
 
 }
