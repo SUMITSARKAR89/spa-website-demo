@@ -1,5 +1,45 @@
+@media(max-width:1400px){
+  header .head{
+    padding: 20px 4% ;
 
+  }
+  .container{
+    padding: 1% 4%;
+    width: 100%;   
+  }
+  section{
+    padding: 4% 0;
+  }
+  .service-head{
+    height: 170vh;
+   
+    }
+}
 
+@media(max-width:1200px){
+  :root{
+    /* font  */
+    ---h1-font: 45px;
+    ---h1-p: 18px;
+    ---btn-font: 14px;
+    ---h2-font: 22px;
+    ---h3-font: 20px;
+    ---h4-font: 13px;
+    /* more fontsize  */
+    ---about-h2-font: 28px;  
+}
+.upper-img,
+.down-img{
+  padding: 3% ;
+}
+.hero-left h1{
+
+  line-height: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  
+}
+}
 
 
 
