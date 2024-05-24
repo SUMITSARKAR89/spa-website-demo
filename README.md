@@ -118,6 +118,16 @@ https://github.com/SUMITSARKAR89/sumitsarkar89/assets/127943920/fb884c79-9e00-48
     background-color: var(---white-color);
   }
 
+*/respomsive
+@media(max-width:780px){
+  nav ul {
+    display: none;  
+  }
+  #menu-btn{
+        display: block;
+      }  
+}
+
 ```
 
 ```javaScript
